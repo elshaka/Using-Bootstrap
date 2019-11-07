@@ -159,6 +159,120 @@ h4 {
   margin-bottom: 15px;
 }
 
+.culture-and-travel {
+  background-color: #f4f5f7;
+}
+
+.culture-and-travel .section-header {
+  color: rgba(3,3,3,.5);
+  padding: 10px;
+}
+
+.culture-and-travel .info {
+  padding: 15px 10px 20px;
+}
+
+.culture-and-travel article img {
+  width: 100%;
+}
+
+.culture-and-travel .title {
+  color: #272727;
+  font: 20px/22px "Lora",serif;
+  margin-bottom: 10px;
+}
+
+.culture-and-travel .summary {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: rgba(39,39,39,.5);
+  margin-bottom: 10px;
+}
+
+.culture-and-travel .tags {
+  font: 300 13px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #272727;
+}
+
+.culture-and-travel .tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.featured-stories {
+  margin-top: 20px;
+}
+
+.featured-stories article img {
+  width: 100%;
+}
+
+.featured-stories .title {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.sponsored {
+  margin-bottom: 30px;
+}
+
+.sponsored .image-wrap {
+  margin-bottom: 0;
+}
+
+.sponsored .image {
+  background-size: cover;
+  height: 263px;
+}
+
+.sponsored .category {
+  color: #3581f4;
+}
+
+.sponsored .info {
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+.sponsored1 .image {
+  background-image: url("https://d.newsweek.com/en/full/1537787/xjtlu-international-business-school-suzhou-2.jpg?w=343&h=229&f=2bf679fa141042c2a401233cbe9a78f2");
+}
+
+.sponsored2 .image {
+  background-image: url("https://d.newsweek.com/en/full/1533982/evolve-cybersecurity-academy.jpg?w=343&h=229&l=0&t=0&f=213a5fae911237312c45d14d985ea208");
+}
+
+.sponsored3 .image {
+  background-image: url("https://d.newsweek.com/en/full/1532655/tampereuniversity.png?w=343&h=229&f=938f753a8299d1c65ec8c6dc068aa0c5");
+}
+
+.opinion .section-header + article {
+  border-top: none;
+}
+
+.opinion article {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opinion img {
+  margin-right: 15px;
+}
+
+.opinion .byline {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   .signin-subscribe a {
     font-size: 18px;
