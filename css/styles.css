@@ -161,6 +161,7 @@ h4 {
 
 .culture-and-travel {
   background-color: #f4f5f7;
+  margin-bottom: 20px;
 }
 
 .culture-and-travel .section-header {
@@ -202,10 +203,6 @@ h4 {
   margin-bottom: 6px;
 }
 
-.featured-stories {
-  margin-top: 20px;
-}
-
 .featured-stories article img {
   width: 100%;
 }
@@ -226,7 +223,7 @@ h4 {
 
 .sponsored .image {
   background-size: cover;
-  height: 263px;
+  height: 172px;
 }
 
 .sponsored .category {
@@ -295,14 +292,70 @@ h4 {
 .latest-news img {
   flex: none;
   width: 135px;
+  height: 100%;
   margin-right: 15px;
+}
+
+.sponsored-articles {
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sponsored-articles .summary {
   margin-bottom: 0px;
 }
+
 .sponsored-articles .sponsored1 .image {
   background-image: url("https://d.newsweek.com/en/full/1527951/national-museum-qatar.png?w=343&h=229&f=8e40dbdd74f5a10439d994c6ecc4df0f");
+}
+
+.sponsored-articles .sponsored2 .image {
+  background-image: url("https://d.newsweek.com/en/full/1528760/umass-amherst-sphhs-aerial-3x2-ratio.jpg?w=343&h=229&f=4f84b1f3f710de9191a59bd87c0b156a");
+}
+
+.sponsored-articles .sponsored3 .image {
+  background-image: url("https://d.newsweek.com/en/full/1541654/nw-wizard-oz-banner-sponsored.jpg?w=343&h=229&f=fe405f3c9bf0acf19663f304bbdccc4e");
+}
+
+.signup-newsletter {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.signup-newsletter .header {
+  display: flex;
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.signup-newsletter .header span {
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url("../images/logo-n1.svg") center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+.signup-newsletter .button {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  background-color: #666;
+}
+
+.signup-newsletter .preferences {
+  display: block;
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed",sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -314,6 +367,28 @@ h4 {
 
   .signin-subscribe span {
     display: inline;
+  }
+
+  .top-more-culture {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .top-story {
+    order: 1;
+  }
+
+  .culture-and-travel {
+    order: 2;
+  }
+
+  .more-stories {
+    order: 3;
+  }
+
+  .featured-stories {
+    order: 1;
   }
 }
 
