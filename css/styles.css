@@ -250,6 +250,9 @@ h4 {
   background-image: url("https://d.newsweek.com/en/full/1532655/tampereuniversity.png?w=343&h=229&f=938f753a8299d1c65ec8c6dc068aa0c5");
 }
 
+.opinion {
+  margin-bottom: 30px;
+}
 .opinion .section-header + article {
   border-top: none;
 }
@@ -271,6 +274,35 @@ h4 {
   line-height: 21px;
   color: #555;
   text-transform: uppercase;
+}
+
+.latest-news {
+  margin-bottom: 30px;
+}
+
+.latest-news .section-header + article {
+  border-top: none;
+  padding-top: none;
+}
+
+.latest-news article {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.latest-news img {
+  flex: none;
+  width: 135px;
+  margin-right: 15px;
+}
+
+.sponsored-articles .summary {
+  margin-bottom: 0px;
+}
+.sponsored-articles .sponsored1 .image {
+  background-image: url("https://d.newsweek.com/en/full/1527951/national-museum-qatar.png?w=343&h=229&f=8e40dbdd74f5a10439d994c6ecc4df0f");
 }
 
 @media (min-width: 768px) {
