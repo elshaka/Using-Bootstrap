@@ -12,7 +12,7 @@ HTML5, CSS and Bootstrap.
 
 ## Live view
 
-A live view can be found [here](https://raw.githack.com/elshaka/Using-Bootstrap/feature-front-page/index.html).
+A live view can be found [here](https://raw.githack.com/elshaka/Using-Bootstrap/master/index.html).
 
 ## Contributors
 
