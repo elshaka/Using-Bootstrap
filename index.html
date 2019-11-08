@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Newsweek</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg d-block p-0">
+      <div class="navbar-top d-flex justify-content-between align-items-center align-items-lg-end">
+        <span class="date d-none d-lg-block">Tue, Nov 05, 2019</span>
+        <a href="#" class="brand"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                <g>
+                  <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6 H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2 C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4  c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6  c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9  c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2  c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6  v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5  h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+                </g></svg></a>
+        <div class="signin-subscribe">
+          <a class="signin d-inline-block text-uppercase" href="#">Sign in</a>
+          <a class="subscribe d-inline-block text-uppercase" href="#">Subscribe <span class="d-none d-md-inline">></span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div id="navbar-menu" class="navbar-bottom collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">U.S. <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">World <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Business <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Tech & Science <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Culture <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Newsgeek <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Sports <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Health <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Opinion <span class="d-lg-none">></span></a></li>
+          <li class="nav-item flex-lg-grow-1"><a class="nav-link d-flex justify-content-between justify-content-lg-center" href="#">Vantage <span class="d-lg-none">></span></a></li>
+          <li class="nav-item search text-lg-center">
+            <form action="#">
+              <input type="text" placeholder="Search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="top-more-culture col-md-7 d-md-flex flex-md-column order-md-2">
+              <div class="top-story order-md-1">
+                <div class="section-header text-uppercase">Top story</div>
+                <article>
+                  <div class="image-wrap">
+                    <div class="category"><a href="#">Politics</a></div>
+                    <img src="images/top-story.jpg" alt="Top story">
+                  </div>
+                  <h2><a href="#">How Senators Say They're Preparing for an Impeachment Trial</a></h2>
+                  <p class="summary">Among nearly a dozen Republican and Democratic senators, the methods by which members say they're preparing for the procedures of a trial range widely.</p>
+                </article>
+              </div>
+              <div class="more-stories order-md-3">
+                <div class="section-header text-uppercase">More stories</div>
+                <div class="articles-container">
+                  <article>
+                    <img src="images/more-stories1.jpg" alt="More stories 1">
+                    <h4>Democrats Take Control of Mike Pence's Hometown for First Time in 38 Years</h4>
+                    <p class="summary">Democrats in Indiana now have the majority of seats in the Columbus City Council.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories2.jpg" alt="More stories 2">
+                    <h4>Former Ethics Chief Criticizes Rand Paul Over Threat to Out Whistleblower</h4>
+                    <p class="summary">Walter Shaub, an ex-director of the Office for Government Ethics, said the Kentucky senator would be committing "one of the most shameful breaches a legislator could commit."</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories3.jpg" alt="More stories 3">
+                    <h4>Politician Stabbed in Hong Kong Is Fifth Election Candidate Attacked</h4>
+                    <p class="summary">Politician Stabbed in Hong Kong Is Fifth Election Candidate Attacked</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories4.jpg" alt="More stories 4">
+                    <h4>Cyclist Who Lost Her Job for Flipping Bird at Trump Wins Election</h4>
+                    <p class="summary">The image of Juli Briskman, 50, making the gesture to the Trump convoy in 2017 went viral.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories5.jpg" alt="More stories 5">
+                    <h4>Putin Proposes Russian Version of Wikipedia but With 'Reliable Information'</h4>
+                    <p class="summary">At the Council on Russian Language, Russian President Vladimir Putin proposed a Russian version of the online encyclopedia, Wikipedia, which will be created between 2020-2022.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories6.jpg" alt="More stories 6">
+                    <h4>Obama Was 'Tormented' Over Syria, Former Ambassador Recalls</h4>
+                    <p class="summary">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories7.jpg" alt="More stories 7">
+                    <h4>Democrats Flip Both Chambers of Virginia's State Government</h4>
+                    <p class="summary">After 20 years of a maintained Republican majority, the House and Senate have both flipped from blue to red.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories8.jpg" alt="More stories 8">
+                    <h4>FBI Director Says 'I Don't Know' if Rudy Giuliani Has Security Clearance</h4>
+                    <p class="summary">Senator Kamala Harris, a member of the Senate Homeland Security Committee, asked FBI director a series of questions, ranging from where his loyalty lies to what kind of clearance Giuliani has at the White House.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories9.jpg" alt="More stories 9">
+                    <h4>Feds Warn That Russia, China and Iran Will Try to Hack 2020 Elections</h4>
+                    <p class="summary">Democrats in Indiana now have the majority of seats in the Columbus City Council.</p>
+                  </article>
+                  <article>
+                    <img src="images/more-stories10.jpg" alt="More stories 10">
+                    <h4>Democrats Take Control of Mike Pence's Hometown for First Time in 38 Years</h4>
+                    <p class="summary">On Tuesday, the DOJ, DOD, DHS, DNI, FBI, NSA and CISA released a joint statement on 2020 election security, warning that "Russia, China, Iran, and other foreign malicious actors all will seek to interfere in the voting process or influence voter perceptions."</p>
+                  </article>
+                </div>
+              </div>
+              <div class="culture-and-travel order-md-2">
+                <div class="section-header text-uppercase">Culture and travel</div>
+                <div class="articles-container row">
+                  <article class="col-md-6">
+                    <img src="images/culture-travel1.jpg" alt="Culture and travel 1"/>
+                    <div class="info">
+                      <h4 class="title"><a href="#">The Literary Influences of Superstar Musician David Bowie</a></h4>
+                      <p class="summary">Bowie was more than a multi-platinum rock and roller. He was also one of the more literate composers in the business.</p>
+                      <div class="tags">
+                        <a class="d-inline-block" href="#">Music</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-6">
+                    <img src="images/culture-travel2.jpg" alt="Culture and travel 2"/>
+                    <div class="info">
+                      <h4 class="title"><a href="#">9 Larger-Than-Life Sculpture Parks Around the World</a></h4>
+                      <p class="summary">Across the globe, sculpture parks present imposing works (and even ideas) that are too large to be contained within four walls.</p>
+                      <div class="tags">
+                        <a class="d-inline-block" href="#">Art</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-6">
+                    <img src="images/culture-travel3.jpg" alt="Culture and travel 3"/>
+                    <div class="info">
+                      <h4 class="title"><a href="#">The World's Best Flea Markets</a></h4>
+                      <p class="summary">These flea markets are internationally renowned, not just because of their size, but because of the varied goods on sale—priceless art treasures, vintage clothing, jewelry and first-edition books.</p>
+                      <div class="tags">
+                        <a class="d-inline-block" href="#">Travel</a>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-6">
+                    <img src="images/culture-travel4.jpg" alt="Culture and travel 4"/>
+                    <div class="info">
+                      <h4 class="title"><a href="#">Saba: The Greatest Little Island You Never Heard Of</a></h4>
+                      <p class="summary">Islanders call Saba "The Unspoiled Queen of the Caribbean" for its pristine landscapes and striking biodiversity as well as the absence of crowds, chain stores, and cruise ship throngs.</p>
+                      <div class="tags">
+                        <a class="d-inline-block" href="#">Travel</a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="featured-stories col-md-5 order-md-1">
+              <div class="section-header text-uppercase">Featured stories</div>
+              <article>
+                <div class="image-wrap">
+                  <div class="category">Politics<a href="#"></a></div>
+                  <img src="images/featured-stories1.jpg" alt="Featured story 1">
+                </div>
+                <h3 class="title">Kentucky's New Democratic Governor Likely to Face Uphill Battle From GOP</h3>
+                <p class="summary">"The legislature, if it so chooses, can basically make any governor irrelevant in Kentucky," Scott Jennings, a Republican strategist, told Newsweek.</p>
+              </article>
+              <article>
+                <div class="image-wrap">
+                  <div class="category"><a href="#">Stuff</a></div>
+                  <img src="images/featured-stories2.jpg" alt="Featured story 1">
+                </div>
+                <h3 class="title">Refugees Arrive in U.S. Under Lowest Admission Cap in Years</h3>
+                <p class="summary">Refugees began arriving in the U.S. after a month-long hiatus during which the Trump administration cut the number of refugees admitted into the country to its lowest level in years.</p>
+              </article>
+              <article>
+                <div class="image-wrap">
+                  <div class="category"><a href="#">Things</a></div>
+                  <img src="images/featured-stories3.jpg" alt="Featured story 1">
+                </div>
+                <h3 class="title">U.S. Poised to Remain the 'Great Satan' in Iran for Decades</h3>
+                <p class="summary">This week marks the 40th anniversary of the storming of the U.S. embassy in Tehran, an event that marked the start of a decades-long stand off between Washington and Iran.</p>
+              </article>
+              <article class="sponsored sponsored1">
+                <div class="image-wrap">
+                  <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                  <div class="image"></div>
+                </div>
+                <div class="info">
+                  <h3 class="title">EQUIS Accredited Business Schools 2019</h3>
+                  <p class="summary">It is important to check whether a school is accredited by a credible global accreditation body and meets internationally agreed quality standards. EQUIS gives you that piece of mind.</p>
+                </div>
+              </article>
+              <article class="sponsored sponsored2">
+                <div class="image-wrap">
+                  <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                  <div class="image"></div>
+                </div>
+                <div class="info">
+                  <h3 class="title">Why Haven’t You Thought About Coding?</h3>
+                  <p class="summary">The industry demand for coders is skyrocketing. It is increasingly recognized as a rewarding, future-proof and flexible vocation and it’s easier to jump on the train than you might think. Find out more...</p>
+                </div>
+              </article>
+              <article class="sponsored sponsored3">
+                <div class="image-wrap">
+                  <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                  <div class="image"></div>
+                </div>
+                <div class="info">
+                  <h3 class="title">Which Global Universities are Leading the Way in 2019?</h3>
+                  <p class="summary">The world is shrinking and the concept of a "global marketplace" has never been more appreciable. Which universities are best preparing tomorrow’s international thought leaders?</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="opinion">
+            <div class="section-header text-uppercase">Opinion</div>
+            <article class="d-flex">
+              <img src="images/opinion1.png" height="63" width="63" alt="Opinion 1">
+              <div class="info">
+                <h4><a href="#">Why Quid Pro Quo Works When Collusion Didn't</a></h4>
+                <span class="byline">By Naveed Jamali</span>
+              </div>
+            </article>
+            <article class="d-flex">
+              <img src="images/opinion2.png" height="63" width="63" alt="Opinion 2">
+              <div class="info">
+                <h4><a href="#">If Trump Defies the Courts, We're in a Nightmare. We Must Arm Them to Fight Back</a></h4>
+                <span class="byline">By Tom Rogers</span>
+              </div>
+            </article>
+            <article class="d-flex">
+              <img src="images/opinion3.png" height="63" width="63" alt="Opinion 3">
+              <div class="info">
+                <h4><a href="#">YG and Other Celebs' Hatred of Trump Isn't Just Extreme. It's Unfounded</a></h4>
+                <span class="byline">By Charlie Kirk</span>
+              </div>
+            </article>
+            <article class="d-flex">
+              <img src="images/opinion4.png" height="63" width="63" alt="Opinion 4">
+              <div class="info">
+                <h4><a href="#">Mike Pence Knew</a></h4>
+                <span class="byline">By Greg Olear</span>
+              </div>
+            </article>
+            <article class="d-flex">
+              <img src="images/opinion5.png" height="63" width="63" alt="Opinion 5">
+              <div class="info">
+                <h4><a href="#">We Truckers Can Slam the Brakes on Human Trafficking</a></h4>
+                <span class="byline">By Eric Higgs</span>
+              </div>
+            </article>
+            <article class="d-flex">
+              <img src="images/opinion6.png" height="63" width="63" alt="Opinion 6">
+              <div class="info">
+                <h4><a href="#">Twitter and Facebook Are Bullhorns for Lies. We Must Break Them Up</a></h4>
+                <span class="byline">By Robert Reich</span>
+              </div>
+            </article>
+          </div>
+          <div class="latest-news">
+            <div class="section-header text-uppercase">Latest news</div>
+            <article class="d-flex">
+              <img src="images/latest-news1.jpg" alt="Latest news 1">
+              <h4><a href="#">Nike Runner Mary Cain Speaks Out About 'Sick' Training  System</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news2.jpg" alt="Latest news 2">
+              <h4><a href="#">'Milkshaking' Becomes an Official Word After Far Right Doused With Dairy</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news3.jpg" alt="Latest news 3">
+              <h4><a href="#">Bernie Sanders Vows To 'Break Up' ICE, CBP In Immigration Plan</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news4.jpg" alt="Latest news 4">
+              <h4><a href="#">Fox News Judge Says GOP's Latest Defense of 'Bedfellow' Trump Is 'Absurd'</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news5.jpg" alt="Latest news 5">
+              <h4><a href="#">Twitter Responds to Reports Trump is Planning 'The Apprentice: White House'</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news6.jpg" alt="Latest news 6">
+              <h4><a href="#">Conservative Candidate Once Said Rape Victims Are 'Partially Responsible'</a></h4>
+            </article>
+            <article class="d-flex">
+              <img src="images/latest-news7.jpg" alt="Latest news 7">
+              <h4><a href="#">Mother Turns in 13-year-old Double Murder Suspect After He Escaped Custody</a></h4>
+            </article>
+          </div>
+          <div class="sponsored-articles">
+            <article class="sponsored sponsored1">
+              <div class="image-wrap">
+                <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                <div class="image"></div>
+              </div>
+              <div class="info">
+                <h3 class="title">Leaders of Qatar, Part 1</h3>
+                <p class="summary">Qatar is one of the fast-growing regional economies and among the most promising in the MENA region, maintaining balanced growth rates despite various global challenges.</p>
+              </div>
+            </article>
+            <div class="signup-newsletter">
+              <div class="header d-flex">
+                <span class="nw-icon d-block flex-shrink-0"></span>Sign up for our Newsletter
+              </div>
+              <a class="button d-inline-block" href="#">Sign up ></a>
+              <a class="preferences d-block">Update your preferences</a>
+            </div>
+            <article class="sponsored sponsored2">
+              <div class="image-wrap">
+                <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                <div class="image"></div>
+              </div>
+              <div class="info">
+                <h3 class="title">What Can a Degree in Public Health Do For You?</h3>
+                <p class="summary">The field of public health is a powerful draw for those who feel inspired to make a positive difference in their communities. Find out more.</p>
+              </div>
+            </article>
+            <article class="sponsored sponsored3">
+              <div class="image-wrap">
+                <div class="category"><a href="#">SPONSORED INSIGHT</a></div>
+                <div class="image"></div>
+              </div>
+              <div class="info">
+                <h3 class="title">Wizard of Oz Special Edition</h3>
+                <p class="summary">Celebrate the 80th anniversary of one of the most iconic American films with Newsweek’s Special Edition. Featuring an introduction from the president of the International Wizard of Oz Club and an inside look at the new Judy Garland biopic.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="magazine-cover col-md-3">
+          <div class="image-wrap">
+            <img src="images/magazine-cover.jpg" alt="Magazine cover">
+            <div class="category">November 15 issue</div>
+          </div>
+          <a class="d-block" href="#">See all features ></a>
+        </div>
+        <div class="in-the-magazine col-md-9">
+          <div class="section-title d-flex justify-content-center align-items-center">
+            <span class="nw-icon d-block flex-shrink-0"></span>
+            <span>In the magazine</span>
+          </div>
+          <div class="row">
+            <article class="col-md-4">
+              <img src="images/in-the-magazine1.jpg" alt="In the magazine 1">
+              <div class="category">
+                <span class="mag-cat">Periscope</span>
+                <span class="cat">World</span>
+              </div>
+              <h4><a href="#">Andrew Yang: Math, Jobs and the Robot Future</a></h4>
+            </article>
+            <article class="col-md-4">
+              <img src="images/in-the-magazine2.jpg" alt="In the magazine 2">
+              <div class="category">
+                <span class="mag-cat">Cover</span>
+                <span class="cat">Politics</span>
+              </div>
+              <h4><a href="#">Tug of War: Photographs Capture Horror of Turkey's Offensive Into Syria </a></h4>
+            </article>
+            <article class="col-md-4">
+              <img src="images/in-the-magazine3.jpg" alt="In the magazine 3">
+              <div class="category">
+                <span class="mag-cat">Periscope</span>
+                <span class="cat">Politics</span>
+              </div>
+              <h4><a href="#">Sheldon Whitehouse On Impeachment, Court-Packing and "Getting to 67 Votes"</a></h4>
+            </article>
+          </div>
+        </div>
+      </div>
+      <div class="in-the-magazine">
+        <div class="row">
+          <article class="col-md-3">
+            <img src="images/in-the-magazine4.jpg" alt="In the magazine 4">
+            <div class="category">
+              <span class="mag-cat">Downtime</span>
+              <span class="cat">Culture</span>
+            </div>
+            <h4><a href="#">The Literary Influences of Superstar Musician David Bowie</a></h4>
+          </article>
+          <article class="col-md-3">
+            <img src="images/in-the-magazine5.jpg" alt="In the magazine 4">
+            <div class="category">
+              <span class="mag-cat">Features</span>
+              <span class="cat">Culture</span>
+            </div>
+            <h4><a href="#">9 Larger-Than-Life Sculpture Parks Around the World</a></h4>
+          </article>
+          <article class="col-md-3">
+            <img src="images/in-the-magazine6.jpg" alt="In the magazine 4">
+            <div class="category">
+              <span class="mag-cat">Downtime</span>
+              <span class="cat">Culture</span>
+            </div>
+            <h4><a href="#">Kelly McCreary on the Writers of 'Grey's Anatomy' and Getting Out the Vote</a></h4>
+          </article>
+          <article class="col-md-3 big-shot">
+            <div class="image-wrap">
+              <img src="images/in-the-magazine7.jpg" alt="In the magazine 4">
+              <div class="category m-0">In focus</div>
+            </div>
+            <h4><a href="#">THE QUEEN'S SPEECH</a></h4>
+          </article>
+        </div>
+      </div>
+      <div class="editors-pick">
+        <div class="section-title d-flex justify-content-center align-items-center">
+          <span class="nw-icon d-block flex-shrink-0"></span>
+          <span>Editor's pick</span>
+        </div>
+        <div class="row">
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">U.S.<a href="#"></a></div>
+              <img src="images/editors-pick1.jpg" alt="Editor's pick 1">
+            </div>
+            <h3 class="title">Bill Gates Blasted for Complaining About Warren's Proposed Wealth Tax</h3>
+            <p class="summary">The criticism came after the Microsoft founder said he would have to "do a little math" related to Warren's billionaire tax proposals which he worried could leave him $100 billion out of pocket.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">News<a href="#"></a></div>
+              <img src="images/editors-pick2.jpg" alt="Editor's pick 2">
+            </div>
+            <h3 class="title">U.S. Poised to Remain the 'Great Satan' in Iran for Decades</h3>
+            <p class="summary">This week marks the 40th anniversary of the storming of the U.S. embassy in Tehran, an event that marked the start of a decades-long stand off between Washington and Iran.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">U.S.<a href="#"></a></div>
+              <img src="images/editors-pick3.jpg" alt="Editor's pick 3">
+            </div>
+            <h3 class="title">Refugees Arrive in U.S. Under Lowest Admission Cap in Years</h3>
+            <p class="summary">Refugees began arriving in the U.S. after a month-long hiatus during which the Trump administration cut the number of refugees admitted into the country to its lowest level in years.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">U.S.<a href="#"></a></div>
+              <img src="images/editors-pick4.jpg" alt="Editor's pick 4">
+            </div>
+            <h3 class="title">Obama Was 'Tormented' Over Syria, Former Ambassador Recalls </h3>
+            <p class="summary">The former ambassador to the United Nations has written a book about her time in the White House and said she believes the former president would still have decided not to intervene in Syria.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">Politics<a href="#"></a></div>
+              <img src="images/editors-pick5.jpg" alt="Editor's pick 5">
+            </div>
+            <h3 class="title">Trump Campaign's Meal Contests 'Out-and-Out Fraud' if Nobody Wins: Lawyer</h3>
+            <p class="summary">The Trump 2020 campaign says people are winning the money-raising contests to meet the president but there is little public evidence that they are.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">Tech & Science.<a href="#"></a></div>
+              <img src="images/editors-pick6.jpg" alt="Editor's pick 6">
+            </div>
+            <h3 class="title">Amazon Rainforest Is Drying Out Due to Human Activities, Scientists Say</h3>
+            <p class="summary">The Amazon rainforest is important to the global climate because of its role in storing vast amounts of carbon dioxide.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">News<a href="#"></a></div>
+              <img src="images/editors-pick7.jpg" alt="Editor's pick 7">
+            </div>
+            <h3 class="title">Trump Withdrawal From Paris Accord Will Leave U.S. 'Edged Out': Macron</h3>
+            <p class="summary">The French president warned that America's withdrawal will not derail the initiative, and said he deplores such a move.</p>
+          </article>
+          <article class="col-md-6 col-lg-3">
+            <div class="image-wrap">
+              <div class="category">Health<a href="#"></a></div>
+              <img src="images/editors-pick8.jpg" alt="Editor's pick 8">
+            </div>
+            <h3 class="title">Cannabis Could Ease Symptoms of Depression in PTSD Patients</h3>
+            <p class="summary">"We're only just beginning to understand what the therapeutic potential of cannabis may be for a variety of health conditions," an author of the study said.</p>
+          </article>
+        </div>
+      </div>
+      <div class="featured-slideshows">
+        <div class="section-title d-flex justify-content-center align-items-center">
+          <span class="nw-icon d-block flex-shrink-0"></span>
+          <span>Featured slideshows</span>
+        </div>
+        <div class="row">
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow1.jpg" alt="Featured slideshow 1">
+              <a class="count-link d-block" href="#">25</a>
+            </div>
+            <h4><a href="#">A Look at Every Starbucks Winter Holiday Cup By Year from 1997 to 2019</a></h4>
+          </article>
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow2.jpg" alt="Featured slideshow 2">
+              <a class="count-link d-block" href="#">19</a>
+            </div>
+            <h4><a href="#">What Starbucks Christmas Holiday Drinks Are Available This Year?</a></h4>
+          </article>
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow3.jpg" alt="Featured slideshow 3">
+              <a class="count-link d-block" href="#">12</a>
+            </div>
+            <h4><a href="#">Meet the Master Carver Who Turns Pumpkins Into Portraits</a></h4>
+          </article>
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow4.jpg" alt="Featured slideshow 4">
+              <a class="count-link d-block" href="#">40</a>
+            </div>
+            <h4><a href="#">Our Cosplay Favorites from NYCC 2019</a></h4>
+          </article>
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow5.jpg" alt="Featured slideshow 5">
+              <a class="count-link d-block" href="#">7</a>
+            </div>
+            <h4><a href="#">The Great Alone: Walking the Pacific Crest Trail</a></h4>
+          </article>
+          <article class="col-md-4">
+            <div class="image-wrap">
+              <img src="images/featured-slideshow6.jpg" alt="Featured slideshow 6">
+              <a class="count-link d-block" href="#">4</a>
+            </div>
+            <h4><a href="#">Cruise the Galapagos While Conserving Wildlife Found Nowhere Else</a></h4>
+          </article>
+        </div>
+      </div>
+      <div class="section-picks">
+        <div class="us-picks">
+          <div class="section-picks-header">U.S.</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/us1.png" alt="us 1">
+                  <h3 class="title">Armed Robbery at Airbnb Party One Week after CEO Planned to Ban Them</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/us2.jpg" alt="us 2">
+                  <h3 class="title">Republican on Fox News Says Kanye West's 'Spiritual Awakening' Is Needed</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/us3.jpg" alt="us 3">
+                <h4>DHS Worker Says Trump's Policies Left Him With No Choice but to Resign</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/us4.jpg" alt="us 4">
+                <h4>Kmart and Sears Closures: When Will They Close?</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/us5.jpg" alt="us 5">
+                <h4>Ivanka Trump Doesn't Think the Whistleblower's Identity Is Relevant</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="world-picks">
+          <div class="section-picks-header">World</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/world1.jpg" alt="world 1">
+                  <h3 class="title">#MakeItRightAcoustic Trends As BTS Releases New Remix</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/world2.jpg" alt="us 2">
+                  <h3 class="title">#LoveUWonho Trends As Monsta X Fans Continue Pleading for Wonho's Return</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/world3.jpg" alt="us 3">
+                <h4>U.S. Official Says New ISIS Leader Is 'Not Going to Enjoy His Promotion'</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/world4.jpg" alt="us 4">
+                <h4>North Korea Mocks Japan Rocket Test Reply: As if a Nuclear Bomb Was Dropped</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/world5.jpg" alt="us 5">
+                <h4>Vigilante Group Falsely Smears Gay Couple As Pedophiles, Gets Them Arrested</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="business-picks">
+          <div class="section-picks-header">Business</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/business1.jpg" alt="us 1">
+                  <h3 class="title">McDonald's CEO Steps Down After Relationship With Employee</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/business2.jpg" alt="us 2">
+                  <h3 class="title">Now that labels can pay to promote music on Spotify, smaller artists may</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/business3.jpg" alt="us 3">
+                <h4>Wealth Tax Would Have Boosted Anti-Semitism: Harvard President Emeritus</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/business4.jpg" alt="us 4">
+                <h4>U.S. Deficit Skyrockets 26 Percent Over 2018, Trump Tax Cuts Blamed for Gap</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/business5.jpg" alt="us 5">
+                <h4>Female CEOs Face 'Greater Penalties' Than Men for Ethical Trangressions</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="tech-picks">
+          <div class="section-picks-header">Tech & Science</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/tech1.jpg" alt="tech 1">
+                  <h3 class="title">NASA Detects Record-breaking X-ray Burst From Massive Cosmic Explosion</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/tech2.jpg" alt="tech 2">
+                  <h3 class="title">Facebook's History of Scandals</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/tech3.jpg" alt="tech 3">
+                <h4>Emperor Penguins 'Marching to Extinction' If We Don't Tackle Climate Change</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/tech4.jpg" alt="tech 4">
+                <h4>Medieval Catholic Church Shaped Psychology of Westerners Living Today</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/tech5.jpg" alt="tech 5">
+                <h4>What Makes a Pop Song Catchy? Scientists Have a New Answer</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="culture-picks">
+          <div class="section-picks-header">Culture</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/culture1.jpg" alt="culture 1">
+                  <h3 class="title">'Doctor Sleep': All the References to 'The Shining' Explained</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/culture2.jpg" alt="culture 2">
+                  <h3 class="title">Fans React To Prince's New Song 'Don't Let Him Fool Ya'</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/culture3.jpg" alt="culture 3">
+                <h4>ASAP Rocky to Headline Concert in Sweden Months After Legal Battle</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/culture4.jpg" alt="culture 4">
+                <h4>How to Get Tickets for the Tina Turner Musical on Broadway</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/culture5.jpg" alt="culture 5">
+                <h4>'Seinfeld' Actor Charles Levin Found Partially Eaten by Vultures: Report</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="sports-picks">
+          <div class="section-picks-header">Sports</div>
+          <div class="row">
+            <div class="featured col-md-8">
+              <div class="row">
+                <article class="col-md-6">
+                  <img src="images/sports1.jpg" alt="sports 1">
+                  <h3 class="title">LSU vs. Alabama: Will Loser Still Make the College Football Playoff?</h3>
+                </article>
+                <article class="col-md-6">
+                  <img src="images/sports2.jpg" alt="sports 2">
+                  <h3 class="title">LSU vs. Alabama: Tigers Have to Make History to Win 'Game of the Century'</h3>
+                </article>
+              </div>
+            </div>
+            <div class="more col-md-4">
+              <article class="d-flex">
+                <img src="images/sports3.jpg" alt="sports 3">
+                <h4>LSU vs. Alabama Odds: Betting Lines and Trends for 'Game of the Century'</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/sports4.jpg" alt="sports 4">
+                <h4>Antonio Brown Backtracks, Says He Wants to Play in NFL After All</h4>
+              </article>
+              <article class="d-flex">
+                <img src="images/sports5.jpg" alt="sports 5">
+                <h4>Thursday Night Football: Los Angeles Chargers vs. Oakland Raiders Preview</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="subscribe-block col-lg-7 col-xl-8">
+          <div class="block-title">Subscribe</div>
+          <div class="block-content d-flex flex-column align-items-center flex-md-row">
+            <div class="covers-container d-inline-block">
+              <img src="images/cover-prev.jpg" alt="Previous cover">
+              <img src="images/cover-current.jpg" alt="Current cover">
+            </div>
+            <div class="block-text d-flex flex-column align-items-center text-center align-items-md-start text-md-left">
+              <h3 class="title">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+              <p>All Access + Weekly Delivery.<br> Choose A Membership That's Perfect for You!</p>
+              <a class="red-button d-inline-block text-uppercase" href="#">Subscribe ></a>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter-block col-lg-5 col-xl-4">
+          <div class="block-title">Newsletter</div>
+          <div class="block-content d-md-flex">
+            <div class="block-image flex-shrink-0"></div>
+            <div class="block-text d-flex flex-column align-items-center text-center align-items-md-start text-md-left">
+              <h3 class="title">The Starting 5</h3>
+              <p>Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+              <a class="red-button d-inline-block text-uppercase" href="#">Sign up ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-top d-md-flex align-items-md-baseline justify-content-md-between">
+        <div class="footer-brand d-md-flex align-items-md-baseline">
+          <a href="#">
+            <svg class="d-block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6 H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2 C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4  c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6  c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9  c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2  c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6  v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5  h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g>
+            </svg>
+          </a>
+          <p class="copyright">© 2019 Newsweek</p>
+        </div>
+        <ul class="social">
+          <li class="d-inline"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+          <li class="d-inline"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="d-inline"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li class="d-inline"><a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+          <li class="d-inline"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="footer-links-menu col-lg-8">
+            <ul class="p-0">
+              <li class="d-inline-block"><a href="#">About Us</a></li>
+              <li class="d-inline-block"><a href="#">Corrections</a></li>
+              <li class="d-inline-block"><a href="#">Contact Us</a></li>
+              <li class="d-inline-block"><a href="#">Editorial Guidelines</a></li>
+              <li class="d-inline-block"><a href="#">Advertise</a></li>
+              <li class="d-inline-block"><a href="#">Copyright</a></li>
+              <li class="d-inline-block"><a href="#">Term & Conditions</a></li>
+              <li class="d-inline-block"><a href="#">Privacy Policy</a></li>
+              <li class="d-inline-block"><a href="#">Cookie Policy</a></li>
+              <li class="d-inline-block"><a href="#">Term of Sale</a></li>
+              <li class="d-inline-block"><a href="#">Archive</a></li>
+              <li class="d-inline-block"><a href="#">Announcements</a></li>
+              <li class="d-inline-block"><a href="#">Consent Preferences</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-edition col-lg-4 d-flex">
+            <label><strong>Editions:</strong></label>
+            <ul class="p-0">
+              <li class="d-inline-block"><a href="#">U.S. Edition</a></li>
+              <li class="d-inline-block"><a href="#">日本</a></li>
+              <li class="d-inline-block"><a href="#">한국</a></li>
+              <li class="d-inline-block"><a href="#">Pakistan</a></li>
+              <li class="d-inline-block"><a href="#">Polska</a></li>
+              <li class="d-inline-block"><a href="#">România</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
