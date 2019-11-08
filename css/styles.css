@@ -166,7 +166,7 @@ h4 {
 }
 
 .culture-and-travel .section-header {
-  color: rgba(3,3,3);
+  color: rgb(3,3,3);
   color: rgba(3,3,3,.5);
   padding: 10px;
 }
@@ -187,7 +187,7 @@ h4 {
 
 .culture-and-travel .summary {
   font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
-  color: rgba(39,39,39);
+  color: rgb(39,39,39);
   color: rgba(39,39,39,.5);
   margin-bottom: 10px;
 }
@@ -282,7 +282,7 @@ h4 {
 
 .latest-news .section-header + article {
   border-top: 0;
-  padding-top: none;
+  padding-top: 0;
 }
 
 .latest-news article {
