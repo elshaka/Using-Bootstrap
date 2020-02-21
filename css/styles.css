@@ -236,6 +236,8 @@ h4 {
 
 .opinion img {
   margin-right: 15px;
+  height: 64px;
+  width: 64px;
 }
 
 .opinion .byline {
