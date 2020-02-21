@@ -1,20 +1,29 @@
 # Using Bootstrap
 
+![screenshot #001](screenshot-lg.png)
+|||
+| ------------- | ------------- |
+| ![screenshot #003](screenshot-md.png)  | ![screenshot #003](screenshot-sm.png)  |
+
+
 The project consists in making a clone of the [Newsweek website](https://www.newsweek.com) using Bootstrap.
-
-## Link to assignment
-
-The assignment can be found [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap).
 
 ## Technologies used
 
-HTML5, CSS and Bootstrap.
+- HTML5
+- CSS3
+- Bootstrap
 
 ## Live view
 
 A live view can be found [here](https://raw.githack.com/elshaka/Using-Bootstrap/master/index.html).
 
-## Contributors
+## Author
 
-Eleazar Meza - [GitHub](https://github.com/elshaka)
+👤 **Eleazar Meza**
+
+- Github: [@elshaka](https://github.com/elshaka)
+- Twitter: [@elshaka](https://twitter.com/elshaka)
+- Linkedin: [Eleazar Meza](https://www.linkedin.com/in/elshaka/)
+
 
